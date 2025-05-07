@@ -1,0 +1,340 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+.alert {
+    padding: 13px 19px;
+    border-radius: 7px;
+    background-color: #d7ecdc;
+    color: #155724;
+    border: 1px solid #cceed4;
+    font-family: sans-serif;
+    margin: 19px;
+    position: relative;
+}
+.alert-close {
+    position: absolute;
+    right: 16px;
+    top: 16px;
+    background: none;
+    border: none;
+    font-size: 18px;
+    color: #155724;
+    cursor: pointer;
+}
+.home-page{
+    height: 100vh;
+    width: 100%;
+    min-height: fit-content;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    list-style: none;
+}
+ul li {
+    margin: 0 10px;
+}
+li a{
+    font-size: 1.4rem;
+    text-decoration: none;
+    font-weight: bold;
+    color: #0d0d0d;
+
+}
+nav img{
+    height: 80px;
+}
+main{
+    width: 100%;
+    height: 80%;
+    min-height: fit-content;
+}
+.main-top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40%;
+    min-height: fit-content;
+}
+.main-top h1{
+    font-size: 3.5rem;
+    color: #0d0d0d;
+}
+.main-top p{
+    font-size: 1.5rem;
+    color: #0d0d0d;
+}
+.main-top button{
+    background-color:#1376eb;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin: 30px 0;
+    padding: 10px 20px;
+}
+.main-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 60%;
+    width: 100%;
+    min-height: fit-content;
+    padding: 0 10px;
+}
+.main-bottom .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 270px;
+    width: 270px;
+    border-radius: 10px;   
+}
+.box img{
+    height: 70% ;
+}
+.about-page{
+    display: flex;
+    flex-direction: column;
+    height: 150vh;
+    min-height: fit-content;
+    width: 100%;
+    padding: 20px 50px;
+}
+.about-part{
+    display: flex;
+    justify-content: space-between;
+    min-height: 250px;
+    height: 23%;
+    width: 100%;
+    background-color: #fff;
+    margin: 5px 0;
+}
+
+.title{
+    font-size: 3rem;
+    margin: 50px;
+    font-weight: bold; 
+    color: #0d0d0d;
+}
+
+.left{
+    margin: 20px 50px;
+    font-size: 1.3rem;
+    padding-right: 320px;
+}
+.left h1{
+    font-size: 2.3rem;
+}
+.boox{
+    display: flex;
+    height: 80%;
+    min-width:270px;
+    width: 30%;
+    margin: auto 0;
+    padding: 0 50px;
+}
+.boox-left{
+    height: 100%;
+    width: 70px;
+}
+.boox-left img{
+    width: 100%;
+}
+
+.boox-right{
+    height: 100%;
+    width: 70%;
+}
+.boox-right h1{
+    color: #1376eb;
+    font-weight: bold;
+}
+.boox-right p {
+    margin-top: 5px;
+    font-size: 1.2rem;
+}
+.courses-page{
+    height: 100vh;
+    width: 100%;
+    min-height: fit-content;
+}
+.course-top{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    width: 100%;
+    margin: 5px 0;
+    padding: 30px 60px;
+}
+.course-top-left input{
+    width: 500px;
+    height: 40px;
+    border-radius: 10px;
+    padding: 0 15px;
+    background-color: rgb(246, 246, 243);
+}
+.course-top-right select{
+    width: 130px;
+    height: 40px;
+    border-radius: 10px;
+    padding: 0 15px;
+    background-color: rgb(246, 246, 243);
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.course-bottom{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 700px;
+    width: 100%;
+    padding: 20px 60px;
+}
+.card{
+    display: flex;
+    align-items: center;
+    height:200px ;
+    width: 640px;
+    border-radius: 10px;
+    padding: 0 20px;
+    border: grey 1px solid;
+}
+.card-left{
+    height: 80%;
+    width: 240px;
+}
+.card-left img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+.card-right{
+    height: 80%;
+    width: 400px;
+    padding: 0 10px;
+}
+.card-right h1{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.card-right p{
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: rgb(105, 104, 104);
+}
+.card-right button{
+    background-color:#1376eb;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin: 10px 0px 0 200px ;
+    padding: 10px 20px;
+}
+.contact-page{
+    height: 100vh;
+    width: 100%;
+}
+.contact-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    width: 100%;
+}
+.contact-top h1{
+    font-size: 2.5rem;
+    padding: 10px;
+}
+.contact-top p{
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 10px 0;
+    color: rgb(105, 104, 104);
+}
+.contact-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: calc(100vh - 250px);
+    width: 100%;
+}
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 700px;
+}
+.info{
+    display: flex;
+    align-items: center;
+    height: 90px;
+    width: 80%;
+    margin: 15px 0;
+    font-size: 1.1rem;
+}
+.info img{
+    padding-right: 15px;
+}
+.contact-right{
+    height: 100%;
+    width: 750px;
+    font-size: 1.2rem;
+}
+legend {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+form{
+    width: 80%;
+    height: 100%;
+    background-color: #fff ;
+    padding: 20px;
+}
+fieldset{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 30px;
+    border-radius: 8px;
+}
+fieldset input{
+    height: 50px;
+}
+fieldset input , textarea{
+    width: 95%;
+    border-radius: 8px;
+    border: 1px solid grey;
+    padding: 0 10px;
+    margin: 10px 0;
+}
+fieldset button{
+    height: 50px;
+    width: 50%;
+    border-radius: 8px;
+    border: none;
+    background-color: #007BFF;
+    color: #fff;
+    font-size: 1.4rem;
+    margin: 0 auto;
+    cursor: pointer;
+}
